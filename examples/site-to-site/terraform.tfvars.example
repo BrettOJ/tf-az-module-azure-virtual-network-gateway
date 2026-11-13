@@ -1,0 +1,12 @@
+subscription_id = "REPLACE-WITH-YOUR-SUBSCRIPTION-ID"
+location = "southeastasia"
+name_prefix = "vpn-s2s-sea-001"
+# Documentation-only IP. Replace with your real VPN device public IP.
+onprem_public_ip = "203.0.113.10"
+onprem_address_space = ["192.168.10.0/24"]
+active_active = false
+bgp_enabled = false
+# When enabling BGP, set both values to match the remote VPN device:
+# onprem_bgp_asn = 65010
+# onprem_bgp_peer_ip = "192.168.10.254"
+# Supply vpn_shared_key using TF_VAR_vpn_shared_key or a pipeline secret.

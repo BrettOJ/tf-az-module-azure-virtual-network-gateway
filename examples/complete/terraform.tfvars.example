@@ -1,0 +1,8 @@
+subscription_id = "REPLACE-WITH-YOUR-SUBSCRIPTION-ID"
+location = "southeastasia"
+name_prefix = "vpn-dev-sea-001"
+active_active = false
+bgp_enabled = false
+# log_analytics_workspace_resource_id = "/subscriptions/.../resourceGroups/.../providers/Microsoft.OperationalInsights/workspaces/..."
+# reader_principal_id = "REPLACE-WITH-ENTRA-OBJECT-ID"
+# enable_delete_lock = true
